@@ -1,0 +1,63 @@
+/* iPhone */
+@media screen and (max-width: 768px) {
+	#header,
+	#box1,
+	#box2,
+	#box3,
+	#content,
+	#sidebar{
+		grid-column: 1 / 13;
+		}
+
+	#feet {
+	grid-template-columns: 1fr;
+		height: 900px;
+	}
+	
+	#header{
+		height: 100px;
+		display: flex;
+		background-color: beige;
+		flex-direction: row;
+		padding: 10px;
+		justify-content: space-between;
+	}
+	#button1,
+	#button2,
+	#button3,
+	#button4{
+		margin: auto;
+	}
+	
+	#content{
+		display: flex;
+		background-color: beige;
+		border: 1px solid black;
+		align-content: row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+	#flex-content1,
+	#flex-content2,
+	#flex-content3,
+	#flex-content4,
+	#flex-content5,
+	#flex-content6{
+		width: 98%;
+		height: 100px;
+		margin: 5px;	
+	}
+	#sidebar{
+			display: flex;
+			background-color: beige;
+			flex-direction: column;
+			padding: 10px;
+			height: 200px;
+	}
+	#sidebutton1,
+	#sidebutton2,
+	#sidebutton3,
+	#sidebutton4 {
+		margin: 5px;
+	}
+}
